@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,OAAO,CAAC;IACN,OAAO,EAAE,YAAY;IACrB,QAAQ,EAAE,KAAK;IACf,MAAM,EAAE,IAAI;IACZ,KAAK,EAAE,IAAI;GACZ;EAED,AACI,MADE,CACF,UAAU,CAAC;IACP,OAAO,EAAE,IAAI;GAChB",
     "sources": [
         "style-desktop.scss"
     ],

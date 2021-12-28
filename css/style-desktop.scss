@@ -1,3 +1,14 @@
 @media screen and (min-width: 750px) {
-    
+  .btn-up {
+    display: inline-block;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  }
+
+  header {
+      .sect-menu {
+          display: none;
+      }
+  }
 }

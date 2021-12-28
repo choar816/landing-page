@@ -50,6 +50,10 @@ img {
 	display: block;
 	width: 100%;
 }
+button {
+	border: none;
+	cursor: pointer;
+}
 
 .blind {
 	position: absolute;
