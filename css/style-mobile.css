@@ -27,6 +27,7 @@ img {
 header {
   position: -webkit-sticky;
   position: sticky;
+  z-index: 20;
   top: 0;
   left: 0;
   padding: 24px 20px;
@@ -120,8 +121,237 @@ main p {
 }
 
 .sect-first .cont-img {
+  background-image: url("./img/box-cat.png");
+  background-size: cover;
   width: 100px;
   height: 180px;
   overflow: hidden;
+}
+
+.sect-second {
+  padding: 32px;
+}
+
+.sect-second .cont-img {
+  margin-bottom: 40px;
+  width: 326px;
+  height: 190px;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+.sect-second .cont-img img {
+  margin-top: -40px;
+  width: 326px;
+}
+
+.sect-second h2 {
+  margin-bottom: 20px;
+}
+
+.sect-third {
+  padding: 32px;
+}
+
+.sect-third strong {
+  color: #d97652;
+}
+
+.sect-third h2 {
+  margin-bottom: 30px;
+}
+
+.sect-third > p {
+  margin-bottom: 40px;
+}
+
+.sect-third ul {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.sect-third ul li {
+  float: left;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.sect-third ul li img {
+  width: 260px;
+  height: 260px;
+}
+
+.sect-third .part-text {
+  overflow: hidden;
+}
+
+.sect-third .part-text p {
+  margin-bottom: 30px;
+}
+
+.sect-third .part-text button {
+  float: right;
+}
+
+.sect-subscribe {
+  position: absolute;
+  margin: 32px;
+  padding: 36px 32px 30px;
+  background-color: #263140;
+  border-radius: 18px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.sect-subscribe h2,
+.sect-subscribe p {
+  color: #ffffff;
+}
+
+.sect-subscribe h2 {
+  margin-bottom: 20px;
+}
+
+.sect-subscribe p {
+  margin-bottom: 30px;
+  color: #f2e9d8;
+}
+
+.sect-subscribe .cont-input {
+  margin-bottom: 20px;
+  padding: 12px 17px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.sect-subscribe .cont-input::before {
+  content: "";
+  margin-right: 14px;
+  width: 18px;
+  height: 18px;
+  background-image: url("../img/mail.svg");
+  background-size: 18px 18px;
+  float: left;
+}
+
+.sect-subscribe .cont-input input {
+  float: left;
+  border: none;
+  width: calc(100% - 32px);
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+}
+
+.sect-subscribe .cont-input input::-webkit-input-placeholder {
+  color: #767676;
+}
+
+.sect-subscribe .cont-input input:-ms-input-placeholder {
+  color: #767676;
+}
+
+.sect-subscribe .cont-input input::-ms-input-placeholder {
+  color: #767676;
+}
+
+.sect-subscribe .cont-input input::placeholder {
+  color: #767676;
+}
+
+.sect-subscribe button {
+  float: right;
+}
+
+.modal-thankyou {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+footer {
+  margin-top: 250px;
+}
+
+footer .cont-img {
+  width: 100%;
+  height: 240px;
+  opacity: 0.6;
+  background-image: url("../img/img_5.jpg");
+  background-size: cover;
+  background-position-y: 15%;
+}
+
+footer .cont-footer {
+  padding: 30px 20px;
+  overflow: hidden;
+}
+
+footer .cont-footer .list-left {
+  float: left;
+}
+
+footer .cont-footer .list-left ul {
+  margin-top: 58px;
+  overflow: hidden;
+}
+
+footer .cont-footer .list-left ul li {
+  float: left;
+}
+
+footer .cont-footer .list-left ul li button {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  background-color: #F29D52;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer .cont-footer .list-left ul li:nth-child(1) button {
+  background-image: url("../img/blog.svg");
+}
+
+footer .cont-footer .list-left ul li:nth-child(2) button {
+  background-image: url("../img/instagram.svg");
+}
+
+footer .cont-footer .list-left ul li:nth-child(3) button {
+  background-image: url("../img/facebook.svg");
+}
+
+footer .cont-footer .list-left ul li:nth-child(4) button {
+  background-image: url("../img/youtube.svg");
+}
+
+footer .cont-footer .list-left ul li + li {
+  margin-left: 16px;
+}
+
+footer .cont-footer .list-menu {
+  float: right;
+}
+
+footer .cont-footer .list-menu li + li {
+  margin-top: 16px;
+}
+
+footer .cont-footer .list-menu li a {
+  color: #767676;
+  font-size: 14px;
+  line-height: 17.5px;
+  text-align: right;
 }
 /*# sourceMappingURL=style-mobile.css.map */
