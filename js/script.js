@@ -1,17 +1,15 @@
-const iconMenu = document.querySelector('.icon-menu');
-const drawerMenu = document.querySelector('.sect-menu');
+const header = document.querySelector('header');
+const iconMenu = header.querySelector('.icon-menu');
+const drawerMenu = header.querySelector('.sect-menu');
+const backBtn = header.querySelector('.btn-back');
 
-const toggleMenu = function() {
-    console.log('toggle menu func');
-    console.log('before', drawerMenu.style.right);
-    if (drawerMenu.style.right === '-290px') {
-        drawerMenu.style.right = '0px';
-    } else {
-        drawerMenu.style.right = '-290px';
-    }
-    console.log('after', drawerMenu.style.right);
-}
-// 맨 처음에 menu icon 눌렀을때 메뉴 나오지 않음
-// 그 뒤로는 정상 작동
+const openMenu = function () {
+  drawerMenu.style.right = '0px';
+};
 
-iconMenu.onclick = toggleMenu;
+const closeMenu = function () {
+  drawerMenu.style.right = '-290px';
+};
+
+iconMenu.onclick = openMenu;
+backBtn.onclick = closeMenu;

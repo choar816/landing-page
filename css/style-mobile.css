@@ -25,11 +25,28 @@ img {
 }
 
 header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 24px 20px;
   background-color: #f2e9d8;
 }
 
 header button {
   background: none;
+}
+
+header .icon-menu {
+  float: right;
+}
+
+header .icon-logo img {
+  width: 92px;
+}
+
+header .icon-menu img {
+  width: 32px;
 }
 
 header .sect-menu {
@@ -40,8 +57,8 @@ header .sect-menu {
   height: 100%;
   background-color: #263140;
   padding: 22px 20px;
-  -webkit-transition: right .5s;
-  transition: right .5s;
+  -webkit-transition: right 0.5s;
+  transition: right 0.5s;
 }
 
 header .sect-menu .btn-back {
@@ -68,11 +85,43 @@ header .sect-menu .btn-orange {
   margin-left: 20px;
 }
 
+main * {
+  margin: 0 auto;
+  text-align: center;
+}
+
 main h2 {
   font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+main p {
+  font-size: 14px;
+  line-height: 17.5px;
 }
 
 .sect-first {
   background-color: #f2e9d8;
+}
+
+.sect-first h2 {
+  padding: 40px 0 30px;
+  width: 264px;
+}
+
+.sect-first p {
+  margin-bottom: 30px;
+  width: 280px;
+}
+
+.sect-first button {
+  margin-bottom: 30px;
+}
+
+.sect-first .cont-img {
+  width: 100px;
+  height: 180px;
+  overflow: hidden;
 }
 /*# sourceMappingURL=style-mobile.css.map */

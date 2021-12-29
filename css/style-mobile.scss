@@ -26,10 +26,25 @@ img {
 }
 
 header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 24px 20px;
   background-color: #f2e9d8;
+
   button {
     background: none;
   }
+  .icon-menu {
+    float: right;
+  }
+  .icon-logo img {
+    width: 92px;
+  }
+  .icon-menu img {
+    width: 32px;
+  }
+
   .sect-menu {
     position: fixed;
     top: 0;
@@ -38,7 +53,7 @@ header {
     height: 100%;
     background-color: #263140;
     padding: 22px 20px;
-    transition: right .5s;
+    transition: right 0.5s;
 
     .btn-back {
       margin-bottom: 51px;
@@ -64,11 +79,38 @@ header {
 }
 
 main {
+  * {
+    margin: 0 auto;
+    text-align: center;
+  }
   h2 {
     font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 14px;
+    line-height: 17.5px;
   }
 }
 
 .sect-first {
   background-color: #f2e9d8;
+
+  h2 {
+    padding: 40px 0 30px;
+    width: 264px;
+  }
+  p {
+    margin-bottom: 30px;
+    width: 280px;
+  }
+  button {
+    margin-bottom: 30px;
+  }
+  .cont-img {
+    width: 100px;
+    height: 180px;
+    overflow: hidden;
+  }
 }
