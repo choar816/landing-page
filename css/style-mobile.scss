@@ -152,18 +152,31 @@ main {
   & > p {
     margin-bottom: 40px;
   }
-  ul {
+  
+  .swiper {
+    max-width: 500px;
     height: 300px;
-    width: 100%;
-    overflow: hidden;
-    z-index: 10;
-    li {
-      float: left;
-      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
-      img {
-        width: 260px;
-        height: 260px;
-      }
+
+    .swiper-slide {
+      background: no-repeat center / 400px;
+    }
+
+    .swiper-slide:nth-child(2) {
+      background-image: url('../img/img_1.jpg');
+    }
+    .swiper-slide:nth-child(3) {
+      background-image: url('../img/img_2.jpg');
+    }
+    .swiper-slide:nth-child(4) {
+      background-image: url('../img/img_3.jpg');
+    }
+
+
+    .swiper-pagination-bullet {
+      background: #666;
+      // &-active {
+      //   background: blue;
+      // }
     }
   }
 

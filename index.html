@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/style-mobile.css">
     <link rel="stylesheet" href="./css/style-desktop.css">
 </head>
@@ -51,11 +52,16 @@
         <section class="sect-third">
             <h2><strong>dummy text of the printing and dummy</strong></h2>
             <p>Lorem ipsum dolor sit, amet <strong>consectetur adipisicing elit</strong>. Earum fugit ipsam ex veniam eius dignissimos pariatur veritatis quia harum labore, aliquid cumque magnam soluta, corrupti at laboriosam modi vitae reiciendis.</p>
-            <ul>
-                <li><img src="./img/img_1.jpg" alt=""></li>
-                <li><img src="./img/img_2.jpg" alt=""></li>
-                <li><img src="./img/img_3.jpg" alt=""></li>
-            </ul>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><p class="blind">프로젝트 사진</p></div>
+                    <div class="swiper-slide"><p class="blind">프로젝트 사진</p></div>
+                    <div class="swiper-slide"><p class="blind">프로젝트 사진</p></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
             <article class="part-text">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius quidem officiis dolor, aspernatur, temporibus sequi provident facilis expedita, quibusdam distinctio at itaque eveniet quia eligendi iure quisquam ad repellendus ab.</p>
                 <button class="btn-orange">Learn More</button>
@@ -103,7 +109,7 @@
             </ul>
         </section>
     </footer>
-
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>

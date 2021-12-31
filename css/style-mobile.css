@@ -167,22 +167,29 @@ main p {
   margin-bottom: 40px;
 }
 
-.sect-third ul {
+.sect-third .swiper {
+  max-width: 500px;
   height: 300px;
-  width: 100%;
-  overflow: hidden;
-  z-index: 10;
 }
 
-.sect-third ul li {
-  float: left;
-  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
-          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+.sect-third .swiper .swiper-slide {
+  background: no-repeat center / 400px;
 }
 
-.sect-third ul li img {
-  width: 260px;
-  height: 260px;
+.sect-third .swiper .swiper-slide:nth-child(2) {
+  background-image: url("../img/img_1.jpg");
+}
+
+.sect-third .swiper .swiper-slide:nth-child(3) {
+  background-image: url("../img/img_2.jpg");
+}
+
+.sect-third .swiper .swiper-slide:nth-child(4) {
+  background-image: url("../img/img_3.jpg");
+}
+
+.sect-third .swiper .swiper-pagination-bullet {
+  background: #666;
 }
 
 .sect-third .part-text {
