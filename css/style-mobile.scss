@@ -157,6 +157,9 @@ main {
     max-width: 500px;
     height: 300px;
 
+    .slide-wrapper {
+      height: 260px;
+    }
     .swiper-slide {
       background: no-repeat center / 400px;
     }
@@ -172,11 +175,17 @@ main {
     }
 
 
+
     .swiper-pagination-bullet {
       background: #666;
-      // &-active {
-      //   background: blue;
-      // }
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+      color: #d97652;
+      &::after {
+        position: relative;
+        top: -17px;
+      }
     }
   }
 
