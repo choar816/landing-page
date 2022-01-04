@@ -2,9 +2,6 @@
 * {
   box-sizing: border-box;
 }
-img {
-  width: 100px;
-} // temporary
 
 // module
 .btn-orange {
@@ -203,6 +200,7 @@ main {
 .sect-subscribe {
   position: absolute;
   margin: 32px;
+  width: calc(100% - 64px);
   padding: 36px 32px 30px;
   background-color: #263140;
   border-radius: 18px;
@@ -256,7 +254,7 @@ main {
 }
 
 .modal-thankyou {
-  // display: none;
+  display: none;
   position: fixed;
   width: 300px;
   z-index: 10;
@@ -306,6 +304,9 @@ footer {
 
     .list-left {
       float: left;
+      img {
+        width: 112px;
+      }
       ul {
         margin-top: 58px;
         overflow: hidden;

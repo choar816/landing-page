@@ -3,10 +3,6 @@
           box-sizing: border-box;
 }
 
-img {
-  width: 100px;
-}
-
 .btn-orange {
   padding: 11px 24px;
   background-color: #d97652;
@@ -223,6 +219,7 @@ main p {
 .sect-subscribe {
   position: absolute;
   margin: 32px;
+  width: calc(100% - 64px);
   padding: 36px 32px 30px;
   background-color: #263140;
   border-radius: 18px;
@@ -294,6 +291,7 @@ main p {
 }
 
 .modal-thankyou {
+  display: none;
   position: fixed;
   width: 300px;
   z-index: 10;
@@ -350,6 +348,10 @@ footer .cont-footer {
 
 footer .cont-footer .list-left {
   float: left;
+}
+
+footer .cont-footer .list-left img {
+  width: 112px;
 }
 
 footer .cont-footer .list-left ul {

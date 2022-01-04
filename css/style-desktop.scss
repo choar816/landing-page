@@ -1,4 +1,10 @@
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 1000px) {
+  // module
+  .btn-orange {
+    padding: 15px 30px;
+  }
+
+  // style
   .btn-up {
     display: inline-block;
     position: fixed;
@@ -7,11 +13,85 @@
   }
 
   header {
+    padding: 26px 200px;
+
+    .icon-logo {
+      padding: 0;
+      img {
+        width: 130px;
+        height: 50px;
+      }
+    }
     .icon-menu {
       display: none;
     }
     .sect-menu {
-      display: none;
+      padding: 0;
+      width: auto;
+      position: static;
+      float: right;
+      background: none;
+
+      .btn-back {
+        display: none;
+      }
+      ul {
+        margin: 15px 0 0;
+        float: left;
+        li {
+          float: left;
+          a {
+            padding: 0;
+            color: #000000;
+          }
+          & + li {
+            margin-left: 30px;
+          }
+        }
+      }
+      .btn-orange {
+        margin-left: 40px;
+        float: left;
+      }
+    }
+  }
+
+  main {
+    * {
+      margin: 0;
+    }
+    h2 {
+      font-size: 48px;
+      line-height: 60px;
+      text-align: left;
+    }
+    p {
+      font-size: 16px;
+      line-height: 20px;
+      text-align: left;
+    }
+  }
+
+  .sect-first {
+    padding: 0 200px;
+    overflow: hidden;
+    .part-text {
+      float: left;
+      h2 {
+        width: 600px;
+      }
+      p {
+        width: 400px;
+      }
+      button {
+        float: left;
+      }
+    }
+    .cont-img {
+      width: 150px;
+      height: 280px;
+      float: right;
+
     }
   }
 }

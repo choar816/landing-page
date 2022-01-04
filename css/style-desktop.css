@@ -1,15 +1,87 @@
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 1000px) {
+  .btn-orange {
+    padding: 15px 30px;
+  }
   .btn-up {
     display: inline-block;
     position: fixed;
     bottom: 50px;
     right: 50px;
   }
+  header {
+    padding: 26px 200px;
+  }
+  header .icon-logo {
+    padding: 0;
+  }
+  header .icon-logo img {
+    width: 130px;
+    height: 50px;
+  }
   header .icon-menu {
     display: none;
   }
   header .sect-menu {
+    padding: 0;
+    width: auto;
+    position: static;
+    float: right;
+    background: none;
+  }
+  header .sect-menu .btn-back {
     display: none;
+  }
+  header .sect-menu ul {
+    margin: 15px 0 0;
+    float: left;
+  }
+  header .sect-menu ul li {
+    float: left;
+  }
+  header .sect-menu ul li a {
+    padding: 0;
+    color: #000000;
+  }
+  header .sect-menu ul li + li {
+    margin-left: 30px;
+  }
+  header .sect-menu .btn-orange {
+    margin-left: 40px;
+    float: left;
+  }
+  main * {
+    margin: 0;
+  }
+  main h2 {
+    font-size: 48px;
+    line-height: 60px;
+    text-align: left;
+  }
+  main p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .sect-first {
+    padding: 0 200px;
+    overflow: hidden;
+  }
+  .sect-first .part-text {
+    float: left;
+  }
+  .sect-first .part-text h2 {
+    width: 600px;
+  }
+  .sect-first .part-text p {
+    width: 400px;
+  }
+  .sect-first .part-text button {
+    float: left;
+  }
+  .sect-first .cont-img {
+    width: 150px;
+    height: 280px;
+    float: right;
   }
 }
 /*# sourceMappingURL=style-desktop.css.map */
