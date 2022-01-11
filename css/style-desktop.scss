@@ -100,4 +100,22 @@
       justify-content: center;
     }
   }
+
+  footer .cont-footer {
+    .list-left {
+      overflow: hidden;
+      width: 100%;
+      img {
+        display: inline-block;
+      }
+      ul {
+        margin-top: 0;
+        float: right;
+      }
+    }
+
+    .list-menu {
+      display: none;
+    }
+  }
 }
