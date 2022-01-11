@@ -25,16 +25,3 @@ iconMenu.onclick = openMenu;
 backBtn.onclick = closeMenu;
 subscribeBtn.onclick = showModal;
 modalBtn.onclick = hideModal;
-
-// Swiper
-var mySwiper = new Swiper('.swiper', {
-  loop: true,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-});

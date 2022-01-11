@@ -83,5 +83,10 @@
     height: 280px;
     float: right;
   }
+  .sect-third ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=style-desktop.css.map */

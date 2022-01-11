@@ -15,9 +15,15 @@
 
 .btn-up {
   display: none;
-  background-image: url("../img/top-btn.svg");
   width: 50px;
   height: 50px;
+  border-radius: 25px;
+  background-image: url("../img/top-btn.svg");
+  background-position: center;
+}
+
+.btn-up:hover {
+  background-image: url("../img/top-btn-hover.svg");
 }
 
 header {
@@ -163,45 +169,20 @@ main p {
   margin-bottom: 40px;
 }
 
-.sect-third .swiper {
-  margin-bottom: 50px;
-  max-width: 500px;
-  height: 300px;
+.sect-third ul {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
 }
 
-.sect-third .swiper .slide-wrapper {
-  height: 260px;
-}
-
-.sect-third .swiper .swiper-slide {
-  background: no-repeat center / 400px;
-}
-
-.sect-third .swiper .swiper-slide:nth-child(2) {
-  background-image: url("../img/img_1.jpg");
-}
-
-.sect-third .swiper .swiper-slide:nth-child(3) {
-  background-image: url("../img/img_2.jpg");
-}
-
-.sect-third .swiper .swiper-slide:nth-child(4) {
-  background-image: url("../img/img_3.jpg");
-}
-
-.sect-third .swiper .swiper-pagination-bullet {
-  background: #666;
-}
-
-.sect-third .swiper .swiper-button-prev,
-.sect-third .swiper .swiper-button-next {
-  color: #d97652;
-}
-
-.sect-third .swiper .swiper-button-prev::after,
-.sect-third .swiper .swiper-button-next::after {
-  position: relative;
-  top: -17px;
+.sect-third ul li img {
+  width: 200px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.2);
 }
 
 .sect-third .part-text {
