@@ -65,6 +65,7 @@
   .sect-first {
     padding: 0 200px;
     overflow: hidden;
+    position: relative;
   }
   .sect-first .part-text {
     float: left;
@@ -82,6 +83,29 @@
     width: 150px;
     height: 280px;
     float: right;
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+  }
+  .sect-second {
+    overflow: hidden;
+    position: relative;
+    padding: 80px 200px;
+  }
+  .sect-second .cont-img {
+    float: left;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .sect-second .part-text {
+    float: right;
+    width: calc(100% - 400px);
+  }
+  .sect-second .part-text h2 {
+    font-size: 36px;
+    line-height: 45px;
   }
   .sect-third ul {
     -webkit-box-pack: center;
@@ -90,6 +114,7 @@
   }
   .sect-subscribe {
     margin: 32px 100px;
+    padding: 50px;
     width: calc(100% - 200px);
   }
   .sect-subscribe .part-text {
@@ -134,6 +159,13 @@
     position: absolute;
     top: 5px;
     right: 5px;
+  }
+  footer {
+    margin-top: 200px;
+  }
+  footer .cont-img {
+    height: 300px;
+    background-position-y: 40%;
   }
   footer .cont-footer .list-left {
     overflow: hidden;

@@ -75,6 +75,8 @@
   .sect-first {
     padding: 0 200px;
     overflow: hidden;
+    position: relative;
+
     .part-text {
       float: left;
       h2 {
@@ -91,6 +93,31 @@
       width: 150px;
       height: 280px;
       float: right;
+
+      position: absolute;
+      bottom: 0;
+      right: 200px;
+    }
+  }
+
+  .sect-second {
+    overflow: hidden;
+    position: relative;
+    padding: 80px 200px;
+
+    .cont-img {
+      float: left;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .part-text {
+      float: right;
+      width: calc(100% - 400px);
+      h2 {
+        font-size: 36px;
+        line-height: 45px;
+      }
     }
   }
 
@@ -102,6 +129,7 @@
 
   .sect-subscribe {
     margin: 32px 100px;
+    padding: 50px;
     width: calc(100% - 200px);
 
     .part-text {
@@ -151,21 +179,30 @@
     }
   }
 
-  footer .cont-footer {
-    .list-left {
-      overflow: hidden;
-      width: 100%;
-      img {
-        display: inline-block;
-      }
-      ul {
-        margin-top: 0;
-        float: right;
-      }
+  footer {
+    margin-top: 200px;
+
+    .cont-img {
+      height: 300px;
+      background-position-y: 40%;
     }
 
-    .list-menu {
-      display: none;
+    .cont-footer {
+      .list-left {
+        overflow: hidden;
+        width: 100%;
+        img {
+          display: inline-block;
+        }
+        ul {
+          margin-top: 0;
+          float: right;
+        }
+      }
+
+      .list-menu {
+        display: none;
+      }
     }
   }
 }
