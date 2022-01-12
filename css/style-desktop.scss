@@ -91,13 +91,63 @@
       width: 150px;
       height: 280px;
       float: right;
-
     }
   }
 
   .sect-third {
     ul {
       justify-content: center;
+    }
+  }
+
+  .sect-subscribe {
+    margin: 32px 100px;
+    width: calc(100% - 200px);
+
+    .part-text {
+      float: left;
+      width: calc(100% - 500px);
+      h2 {
+        font-size: 36px;
+        line-height: 45px;
+      }
+      p {
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 17.5px;
+      }
+    }
+    
+    .part-input {
+      float: right;
+      position: absolute;
+      top: 50%;
+      right: 32px;
+      transform: translateY(-50%);
+      
+      .cont-input {
+        padding: 18px 28px;
+        margin: 0;
+        width: 430px;
+
+        &::before {
+          margin-right: 16px;
+          width: 24px;
+          height: 24px;
+          background-size: 24px 24px;
+        }
+        input {
+          margin-top: 2px;
+          width: calc(100% - 170px);
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+      .btn-orange {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+      }
     }
   }
 

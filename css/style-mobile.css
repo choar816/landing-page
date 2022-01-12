@@ -225,7 +225,7 @@ main p {
 
 .sect-subscribe .cont-input {
   margin-bottom: 20px;
-  padding: 7px 17px;
+  padding: 12px 17px;
   width: 100%;
   background-color: #ffffff;
   border-radius: 60px;
@@ -234,7 +234,7 @@ main p {
 
 .sect-subscribe .cont-input::before {
   content: "";
-  margin: 3.5px 9px 0 0;
+  margin-right: 9px;
   width: 18px;
   height: 18px;
   background-image: url("../img/mail.svg");
@@ -243,9 +243,11 @@ main p {
 }
 
 .sect-subscribe .cont-input input {
-  padding: 5px;
+  margin-top: 1.5px;
+  padding: 0;
   float: left;
   border: none;
+  outline: none;
   width: calc(100% - 32px);
   font-size: 12px;
   line-height: 15px;
@@ -268,7 +270,7 @@ main p {
   color: #767676;
 }
 
-.sect-subscribe button {
+.sect-subscribe .btn-orange {
   float: right;
 }
 
