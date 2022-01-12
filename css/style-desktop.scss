@@ -131,12 +131,18 @@
     }
     .part-text {
       overflow: hidden;
+      position: relative;
       p {
         float: left;
         width: calc(100% - 160px);
+        margin-bottom: 0;
       }
       button {
         float: right;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
       }
     }
   }
