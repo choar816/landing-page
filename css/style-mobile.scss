@@ -30,7 +30,7 @@
 
 header {
   position: sticky;
-  z-index: 20;
+  z-index: 10;
   top: 0;
   left: 0;
   padding: 24px 20px;
@@ -171,7 +171,6 @@ main {
     }
   }
 
-
   .part-text {
     overflow: hidden;
     p {
@@ -245,7 +244,7 @@ main {
   display: none;
   position: fixed;
   width: 300px;
-  z-index: 10;
+  z-index: 20;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -256,6 +255,7 @@ main {
 
   img {
     margin-bottom: 24px;
+    width: 60px;
   }
   h2 {
     margin-bottom: 10px;

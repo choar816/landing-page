@@ -181,6 +181,26 @@
     top: 5px;
     right: 5px;
   }
+  .modal-thankyou {
+    width: 600px;
+    padding: 60px 100px 40px;
+    background-size: 600px 400px;
+  }
+  .modal-thankyou img {
+    width: 110px;
+    margin: 0 auto 24px;
+  }
+  .modal-thankyou h2, .modal-thankyou p {
+    text-align: center;
+  }
+  .modal-thankyou h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .modal-thankyou button {
+    font-size: 16px;
+    line-height: 20px;
+  }
   footer {
     margin-top: 200px;
   }

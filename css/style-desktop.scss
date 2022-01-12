@@ -199,6 +199,28 @@
     }
   }
 
+  .modal-thankyou {
+    width: 600px;
+    padding: 60px 100px 40px;
+    background-size: 600px 400px;
+
+    img {
+      width: 110px;
+      margin: 0 auto 24px;
+    }
+    h2, p {
+      text-align: center;
+    }
+    h2 {
+      font-size: 36px;
+      line-height: 45px;
+    }
+    button {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
   footer {
     margin-top: 200px;
 
