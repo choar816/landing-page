@@ -107,10 +107,24 @@
     font-size: 36px;
     line-height: 45px;
   }
-  .sect-third ul {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  .sect-third {
+    padding: 32px 200px;
+  }
+  .sect-third > h2, .sect-third > p {
+    text-align: center;
+  }
+  .sect-third .part-project {
+    margin-bottom: 40px;
+  }
+  .sect-third .part-text {
+    overflow: hidden;
+  }
+  .sect-third .part-text p {
+    float: left;
+    width: calc(100% - 160px);
+  }
+  .sect-third .part-text button {
+    float: right;
   }
   .sect-subscribe {
     margin: 32px 100px;

@@ -122,8 +122,22 @@
   }
 
   .sect-third {
-    ul {
-      justify-content: center;
+    padding: 32px 200px;
+    >h2, >p {
+      text-align: center;
+    }
+    .part-project {
+      margin-bottom: 40px;
+    }
+    .part-text {
+      overflow: hidden;
+      p {
+        float: left;
+        width: calc(100% - 160px);
+      }
+      button {
+        float: right;
+      }
     }
   }
 
