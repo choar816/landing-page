@@ -30,7 +30,7 @@
 header {
   position: -webkit-sticky;
   position: sticky;
-  z-index: 10;
+  z-index: 20;
   top: 0;
   left: 0;
   padding: 24px 20px;
@@ -198,7 +198,7 @@ main p {
   float: right;
 }
 
-.sect-subscribe {
+.form-subscribe {
   position: absolute;
   margin: 32px;
   width: calc(100% - 64px);
@@ -209,21 +209,21 @@ main p {
   z-index: 10;
 }
 
-.sect-subscribe h2,
-.sect-subscribe p {
+.form-subscribe h2,
+.form-subscribe p {
   color: #ffffff;
 }
 
-.sect-subscribe h2 {
+.form-subscribe h2 {
   margin-bottom: 20px;
 }
 
-.sect-subscribe p {
+.form-subscribe p {
   margin-bottom: 30px;
   color: #f2e9d8;
 }
 
-.sect-subscribe .cont-input {
+.form-subscribe .cont-input {
   margin-bottom: 20px;
   padding: 12px 17px;
   width: 100%;
@@ -232,7 +232,7 @@ main p {
   overflow: hidden;
 }
 
-.sect-subscribe .cont-input::before {
+.form-subscribe .cont-input::before {
   content: "";
   margin-right: 9px;
   width: 18px;
@@ -242,7 +242,7 @@ main p {
   float: left;
 }
 
-.sect-subscribe .cont-input input {
+.form-subscribe .cont-input input {
   margin-top: 1.5px;
   padding: 0;
   float: left;
@@ -254,23 +254,23 @@ main p {
   text-align: left;
 }
 
-.sect-subscribe .cont-input input::-webkit-input-placeholder {
+.form-subscribe .cont-input input::-webkit-input-placeholder {
   color: #767676;
 }
 
-.sect-subscribe .cont-input input:-ms-input-placeholder {
+.form-subscribe .cont-input input:-ms-input-placeholder {
   color: #767676;
 }
 
-.sect-subscribe .cont-input input::-ms-input-placeholder {
+.form-subscribe .cont-input input::-ms-input-placeholder {
   color: #767676;
 }
 
-.sect-subscribe .cont-input input::placeholder {
+.form-subscribe .cont-input input::placeholder {
   color: #767676;
 }
 
-.sect-subscribe .btn-orange {
+.form-subscribe .btn-orange {
   float: right;
 }
 

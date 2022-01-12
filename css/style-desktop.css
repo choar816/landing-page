@@ -133,50 +133,50 @@
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
-  .sect-subscribe {
+  .form-subscribe {
     margin: 32px 100px;
     padding: 50px;
     width: calc(100% - 200px);
   }
-  .sect-subscribe .part-text {
+  .form-subscribe .part-text {
     float: left;
     width: calc(100% - 500px);
   }
-  .sect-subscribe .part-text h2 {
+  .form-subscribe .part-text h2 {
     font-size: 36px;
     line-height: 45px;
   }
-  .sect-subscribe .part-text p {
+  .form-subscribe .part-text p {
     margin-bottom: 0;
     font-size: 14px;
     line-height: 17.5px;
   }
-  .sect-subscribe .part-input {
+  .form-subscribe .part-input {
     float: right;
     position: absolute;
     top: 50%;
-    right: 32px;
+    right: 50px;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
-  .sect-subscribe .part-input .cont-input {
+  .form-subscribe .part-input .cont-input {
     padding: 18px 28px;
     margin: 0;
     width: 430px;
   }
-  .sect-subscribe .part-input .cont-input::before {
+  .form-subscribe .part-input .cont-input::before {
     margin-right: 16px;
     width: 24px;
     height: 24px;
     background-size: 24px 24px;
   }
-  .sect-subscribe .part-input .cont-input input {
+  .form-subscribe .part-input .cont-input input {
     margin-top: 2px;
     width: calc(100% - 170px);
     font-size: 16px;
     line-height: 20px;
   }
-  .sect-subscribe .part-input .btn-orange {
+  .form-subscribe .part-input .btn-orange {
     position: absolute;
     top: 5px;
     right: 5px;

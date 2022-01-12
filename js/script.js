@@ -4,7 +4,8 @@ const drawerMenu = header.querySelector('.sect-menu');
 const menuBackBtn = header.querySelector('.btn-menuback');
 const upBtn = document.querySelector('.btn-up');
 
-const subscribeBtn = document.querySelector('.sect-subscribe button');
+const subscribeForm = document.querySelector('.form-subscribe');
+const subscribeBtn = subscribeForm.querySelector('button');
 const modalSect = document.querySelector('.modal-thankyou');
 const modalBtn = modalSect.querySelector('button');
 
