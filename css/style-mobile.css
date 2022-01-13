@@ -1,6 +1,7 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .btn-orange {
