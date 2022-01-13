@@ -110,7 +110,8 @@
   .sect-third {
     padding: 32px 200px;
   }
-  .sect-third > h2, .sect-third > p {
+  .sect-third > h2,
+  .sect-third > p {
     text-align: center;
   }
   .sect-third .part-project {
@@ -190,7 +191,8 @@
     width: 110px;
     margin: 0 auto 24px;
   }
-  .modal-thankyou h2, .modal-thankyou p {
+  .modal-thankyou h2,
+  .modal-thankyou p {
     text-align: center;
   }
   .modal-thankyou h2 {
