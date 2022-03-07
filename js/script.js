@@ -53,7 +53,7 @@ const subscribeClick = function () {
   if (emailCheck(subscribeInput.value)) {
     showModal();
   } else {
-    alert("이메일 수정 부탁");
+    alert("이메일 형식이 올바르지 않습니다.");
   }
 };
 
